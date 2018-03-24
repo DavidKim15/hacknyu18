@@ -19,9 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GraphicsActivity" />
         <activity android:name=".fourseveneight" />
-        <activity android:name=".SoundsActivity"></activity>
+        <activity android:name=".SoundsActivity" />
+        <activity
+            android:name=".Graphics2Activity"
+            android:label="@string/title_activity_graphics2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
