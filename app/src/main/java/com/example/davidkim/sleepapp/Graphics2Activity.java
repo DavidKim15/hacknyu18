@@ -21,7 +21,8 @@ public class Graphics2Activity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_graphics2);
+        setContentView(R.layout.activity_graphics);
+        setTitle("Graphics");
 
         // to go to four seven eight
         ImageButton ib = (ImageButton) this.findViewById(R.id.button478);
@@ -68,7 +69,7 @@ public class Graphics2Activity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.graphics2, menu);
+        getMenuInflater().inflate(R.menu.graphics, menu);
         return true;
     }
 
