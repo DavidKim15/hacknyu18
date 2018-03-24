@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GraphicsActivity"></activity>
+        <activity android:name=".GraphicsActivity" />
+        <activity android:name=".fourseveneight"></activity>
     </application>
 
 </manifest>
