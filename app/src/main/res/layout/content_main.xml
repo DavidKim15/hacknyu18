@@ -9,7 +9,7 @@
     tools:showIn="@layout/app_bar_main" >
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/landinglogo"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
         android:maxHeight="200dp"
@@ -45,7 +45,7 @@
         app:layout_constraintVertical_bias="0.24000001" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/landinggif"
         android:layout_width="wrap_content"
         android:layout_height="240dp"
         android:maxHeight="100dp"
