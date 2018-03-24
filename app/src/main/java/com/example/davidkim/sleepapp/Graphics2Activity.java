@@ -13,14 +13,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity
+public class Graphics2Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_graphics2);
+
+        // to go to four seven eight
+        ImageButton ib = (ImageButton) this.findViewById(R.id.button478);
+        ib.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Graphics2Activity.this, fourseveneight.class));
+            }
+        });
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -56,7 +68,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.graphics2, menu);
         return true;
     }
 
@@ -82,11 +94,11 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
-            startActivity(new Intent(MainActivity.this,Graphics2Activity.class));
+            // do nothing
         } else if (id == R.id.nav_videos) {
 
         } else if (id == R.id.nav_sounds) {
-            startActivity(new Intent(MainActivity.this,SoundsActivity.class));
+            startActivity(new Intent(Graphics2Activity.this,SoundsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
