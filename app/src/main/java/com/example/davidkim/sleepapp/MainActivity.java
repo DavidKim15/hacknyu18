@@ -1,5 +1,6 @@
 package com.example.davidkim.sleepapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
-            
+            startActivity(new Intent(MainActivity.this,GraphicsActivity.class));
         } else if (id == R.id.nav_videos) {
 
         } else if (id == R.id.nav_sounds) {
