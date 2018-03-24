@@ -24,7 +24,7 @@
         <activity
             android:name=".Graphics2Activity"
             android:label="@string/title_activity_graphics2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

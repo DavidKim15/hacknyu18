@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
-            startActivity(new Intent(MainActivity.this,GraphicsActivity.class));
+            startActivity(new Intent(MainActivity.this,Graphics2Activity.class));
         } else if (id == R.id.nav_videos) {
 
         } else if (id == R.id.nav_sounds) {

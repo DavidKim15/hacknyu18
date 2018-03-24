@@ -15,20 +15,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
 
-public class GraphicsActivity extends AppCompatActivity
+public class Graphics2Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graphics);
+        setTitle("Graphics");
 
         // to go to four seven eight
         ImageButton ib = (ImageButton) this.findViewById(R.id.button478);
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(GraphicsActivity.this, fourseveneight.class));
+                startActivity(new Intent(Graphics2Activity.this, fourseveneight.class));
             }
         });
 
@@ -94,11 +95,11 @@ public class GraphicsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
-            startActivity(new Intent(GraphicsActivity.this,GraphicsActivity.class));
+            // do nothing
         } else if (id == R.id.nav_videos) {
 
         } else if (id == R.id.nav_sounds) {
-            startActivity(new Intent(GraphicsActivity.this,SoundsActivity.class));
+            startActivity(new Intent(Graphics2Activity.this,SoundsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout2);
