@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".GraphicsActivity" />
-        <activity android:name=".fourseveneight"></activity>
+        <activity android:name=".fourseveneight" />
+        <activity android:name=".SoundsActivity"></activity>
     </application>
 
 </manifest>
