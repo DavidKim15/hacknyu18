@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ImageButton;
 import android.view.View;
 
-public class GraphicsActivity extends AppCompatActivity {
+public class GraphicsActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
