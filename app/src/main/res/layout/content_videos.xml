@@ -8,16 +8,6 @@
     tools:context="com.example.davidkim.sleepapp.VideosActivity"
     tools:showIn="@layout/app_bar_videos" >
 
-    <!--<TableLayout-->
-    <!--android:id="@+id/tableLayout"-->
-    <!--android:layout_width="fill_parent"-->
-    <!--android:layout_height="fill_parent"-->
-    <!--android:layout_marginBottom="8dp"-->
-    <!--android:layout_marginTop="8dp"-->
-    <!--app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--app:layout_constraintStart_toStartOf="parent"-->
-    <!--app:layout_constraintTop_toTopOf="parent">-->
-
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/tableLayout1"
         android:layout_width="fill_parent"

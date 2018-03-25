@@ -33,6 +33,14 @@ public class GraphicsActivity extends AppCompatActivity
             }
         });
 
+        ImageButton ic = (ImageButton) this.findViewById(R.id.colorsbutton);
+        ic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(GraphicsActivity.this, colors.class));
+            }
+        });
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
         setSupportActionBar(toolbar);
