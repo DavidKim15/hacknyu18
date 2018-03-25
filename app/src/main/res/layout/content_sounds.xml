@@ -51,7 +51,7 @@
                 android:layout_height="fill_parent"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="50dp"
-                android:text="Rain"
+                android:text="White Noise"
                 android:textSize="30sp" />
         </TableRow>
 

@@ -41,7 +41,7 @@
                 android:id="@+id/colorsbutton"
                 android:layout_width="40dp"
                 android:layout_height="75dp"
-                android:src="@drawable/raindrop" />
+                android:src="@drawable/tunnel" />
 
             <TextView
                 android:id="@+id/colorstext"
