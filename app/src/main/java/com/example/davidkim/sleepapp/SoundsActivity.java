@@ -108,10 +108,8 @@ public class SoundsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
-            super.onBackPressed();
             startActivity(new Intent(SoundsActivity.this,GraphicsActivity.class));
         } else if (id == R.id.nav_videos) {
-            super.onBackPressed();
             startActivity(new Intent(SoundsActivity.this,VideosActivity.class));
         } else if (id == R.id.nav_sounds) {
             // do nothing

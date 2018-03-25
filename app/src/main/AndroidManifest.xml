@@ -23,15 +23,18 @@
         <activity
             android:name=".SoundsActivity"
             android:label="@string/title_activity_sounds"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true" />
         <activity
             android:name=".GraphicsActivity"
             android:label="@string/title_activity_graphics"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true" />
         <activity
             android:name=".VideosActivity"
             android:label="@string/title_activity_videos"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true" />
         <activity android:name=".colors" />
         <activity android:name=".bread" />
         <activity android:name=".cheese" />

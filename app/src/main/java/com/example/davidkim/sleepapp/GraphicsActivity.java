@@ -93,10 +93,8 @@ public class GraphicsActivity extends AppCompatActivity
         if (id == R.id.nav_graphics) {
             // do nothing
         } else if (id == R.id.nav_videos) {
-            super.onBackPressed();
             startActivity(new Intent(GraphicsActivity.this,VideosActivity.class));
         } else if (id == R.id.nav_sounds) {
-            super.onBackPressed();
             startActivity(new Intent(GraphicsActivity.this,SoundsActivity.class));
         }
 
