@@ -28,6 +28,10 @@
             android:name=".GraphicsActivity"
             android:label="@string/title_activity_graphics"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VideosActivity"
+            android:label="@string/title_activity_videos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

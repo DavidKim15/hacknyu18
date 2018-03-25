@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_graphics) {
             startActivity(new Intent(MainActivity.this,GraphicsActivity.class));
         } else if (id == R.id.nav_videos) {
-
+            startActivity(new Intent(MainActivity.this,VideosActivity.class));
         } else if (id == R.id.nav_sounds) {
             startActivity(new Intent(MainActivity.this,SoundsActivity.class));
         }
