@@ -33,6 +33,14 @@ public class VideosActivity extends AppCompatActivity
             }
         });
 
+        ImageButton ic = (ImageButton) this.findViewById(R.id.cheeseicon);
+        ic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(VideosActivity.this, cheese.class));
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
