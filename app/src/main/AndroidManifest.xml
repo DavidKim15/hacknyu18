@@ -19,7 +19,8 @@ package="com.example.davidkim.sleepapp">
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-    <activity android:name=".fourseveneight" />
+    <activity android:name=".fourseveneight"
+        android:noHistory="true" />
     <activity
         android:name=".SoundsActivity"
         android:label="@string/title_activity_sounds"
@@ -35,9 +36,12 @@ package="com.example.davidkim.sleepapp">
         android:label="@string/title_activity_videos"
         android:theme="@style/AppTheme.NoActionBar"
         android:noHistory="true" />
-    <activity android:name=".colors" />
-    <activity android:name=".bread" />
-    <activity android:name=".cheese" />
+    <activity android:name=".colors"
+        android:noHistory="true" />
+    <activity android:name=".bread"
+        android:noHistory="true" />
+    <activity android:name=".cheese"
+        android:noHistory="true" />
     <activity android:name=".Splash"></activity>
 </application>
 
