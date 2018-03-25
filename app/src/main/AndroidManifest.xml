@@ -34,7 +34,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".colors" />
         <activity android:name=".bread" />
-        <activity android:name=".cheese"></activity>
+        <activity android:name=".cheese" />
     </application>
 
 </manifest>

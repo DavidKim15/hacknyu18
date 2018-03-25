@@ -44,6 +44,24 @@ public class SoundsActivity extends AppCompatActivity
             }
         });
 
+        ImageButton ic = (ImageButton) this.findViewById(R.id.whitenoisebutton);
+        ic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                MediaPlayer mp = MediaPlayer.create(SoundsActivity.this, R.raw.rain);
+//                if(mp.isPlaying()) {
+//                    mp.stop();
+//                }
+//                mp.start();
+//                mp.setLooping(true);
+
+                MusicPlayer.setContext(SoundsActivity.this);
+                MusicPlayer.playMusic(R.raw.whitenoise);
+
+                finish();
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
