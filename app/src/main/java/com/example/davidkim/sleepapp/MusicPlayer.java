@@ -17,6 +17,11 @@ public class MusicPlayer {
         context = cont;
     }
 
+    public static boolean isPlaying() {
+        if(sounds != null) return true;
+        else return false;
+    }
+
     public static void playMusic(int resource){
         if(sounds != null) sounds.reset();
 
