@@ -25,7 +25,7 @@ public class fourseveneight extends AppCompatActivity {
             //back button
             case android.R.id.home:
                 // app icon in action bar clicked; go home
-                Intent intent = new Intent(this, Graphics2Activity.class);
+                Intent intent = new Intent(this, GraphicsActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 return true;

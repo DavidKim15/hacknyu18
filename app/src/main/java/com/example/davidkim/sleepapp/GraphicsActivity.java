@@ -15,7 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
 
-public class Graphics2Activity extends AppCompatActivity
+public class GraphicsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -29,9 +29,10 @@ public class Graphics2Activity extends AppCompatActivity
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Graphics2Activity.this, fourseveneight.class));
+                startActivity(new Intent(GraphicsActivity.this, fourseveneight.class));
             }
         });
+
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -92,6 +93,7 @@ public class Graphics2Activity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
@@ -99,7 +101,7 @@ public class Graphics2Activity extends AppCompatActivity
         } else if (id == R.id.nav_videos) {
 
         } else if (id == R.id.nav_sounds) {
-            startActivity(new Intent(Graphics2Activity.this,SoundsActivity.class));
+            startActivity(new Intent(GraphicsActivity.this,SoundsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
