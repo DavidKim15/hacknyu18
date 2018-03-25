@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">sleepApp</string>
+    <string name="app_name">doz</string>
     <string name="desc">"Logo for 478"</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
