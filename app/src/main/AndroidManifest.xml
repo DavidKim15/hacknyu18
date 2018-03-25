@@ -20,11 +20,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".fourseveneight" />
-        <activity android:name=".SoundsActivity" />
+        <activity
+            android:name=".SoundsActivity"
+            android:label="@string/title_activity_sounds"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".GraphicsActivity"
             android:label="@string/title_activity_graphics"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
