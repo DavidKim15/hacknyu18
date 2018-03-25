@@ -22,11 +22,11 @@
     <ImageButton
         android:id="@+id/logoo"
         android:layout_width="100dip"
-        android:layout_height="80dip"
+        android:layout_height="40dip"
         android:adjustViewBounds="true"
-        android:maxWidth="100dp"
+        android:background="@drawable/doz_white_trans"
         android:maxHeight="100dp"
-        android:background = "@drawable/doz_white_bgnd" />
+        android:maxWidth="100dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
