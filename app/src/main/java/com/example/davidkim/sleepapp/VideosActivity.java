@@ -25,11 +25,11 @@ public class VideosActivity extends AppCompatActivity
         setTitle("Videos");
 
         // to go to four seven eight
-        ImageButton ib = (ImageButton) this.findViewById(R.id.button478);
+        ImageButton ib = (ImageButton) this.findViewById(R.id.bread);
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(VideosActivity.this, fourseveneight.class));
+                startActivity(new Intent(VideosActivity.this, bread.class));
             }
         });
 

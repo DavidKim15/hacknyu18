@@ -32,7 +32,8 @@
             android:name=".VideosActivity"
             android:label="@string/title_activity_videos"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".colors"></activity>
+        <activity android:name=".colors" />
+        <activity android:name=".bread"></activity>
     </application>
 
 </manifest>
