@@ -94,10 +94,12 @@ public class VideosActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
+            super.onBackPressed();
             startActivity(new Intent(VideosActivity.this,GraphicsActivity.class));
         } else if (id == R.id.nav_videos) {
             // do nothing
         } else if (id == R.id.nav_sounds) {
+            super.onBackPressed();
             startActivity(new Intent(VideosActivity.this,SoundsActivity.class));
         }
 

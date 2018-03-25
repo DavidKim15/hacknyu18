@@ -17,6 +17,9 @@ public class bread extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bread);
 
+        // stop music player
+        MusicPlayer.stopMusic();
+
         Button btnvideo = (Button) this.findViewById(R.id.pauseButton);
         getWindow().setFormat(PixelFormat.UNKNOWN);
 
