@@ -35,6 +35,7 @@
         <activity android:name=".colors" />
         <activity android:name=".bread" />
         <activity android:name=".cheese" />
+        <activity android:name=".Splash"></activity>
     </application>
 
 </manifest>
