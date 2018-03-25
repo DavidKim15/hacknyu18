@@ -5,21 +5,19 @@ import android.graphics.PixelFormat;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.os.Handler;
+import android.view.Menu;
 import android.widget.VideoView;
 
 public class Splash extends AppCompatActivity {
+
+    private final int SPLASH_DISPLAY_LENGTH = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        // stop music player
-        MusicPlayer.stopMusic();
-
-        Button btnvideo = (Button) this.findViewById(R.id.passButton);
         getWindow().setFormat(PixelFormat.UNKNOWN);
 
         final VideoView mVideoView2 = (VideoView)findViewById(R.id.logoScreen);
@@ -29,12 +27,15 @@ public class Splash extends AppCompatActivity {
         mVideoView2.requestFocus();
         mVideoView2.start();
 
-        btnvideo.setOnClickListener(new Button.OnClickListener() {
+        new Handler().postDelayed(new Runnable(){
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Splash.this, MainActivity.class));
+            public void run() {
+                /* Create an Intent that will start the Menu-Activity. */
+                Intent mainIntent = new Intent(Splash.this,MainActivity.class);
+                Splash.this.startActivity(mainIntent);
+                Splash.this.finish();
             }
-        });
+        }, SPLASH_DISPLAY_LENGTH);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
