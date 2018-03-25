@@ -21,7 +21,8 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".fourseveneight" />
+        <activity android:name=".fourseveneight"
+            android:noHistory="true"/>
         <activity
             android:name=".SoundsActivity"
             android:label="@string/title_activity_sounds"
@@ -37,9 +38,12 @@
             android:label="@string/title_activity_videos"
             android:theme="@style/AppTheme.NoActionBar"
             android:noHistory="true" />
-        <activity android:name=".colors" />
-        <activity android:name=".bread" />
-        <activity android:name=".cheese" > </activity>
+        <activity android:name=".colors"
+            android:noHistory="true"/>
+        <activity android:name=".bread"
+            android:noHistory="true"/>
+        <activity android:name=".cheese"
+            android:noHistory="true"> </activity>
     </application>
 
 </manifest>
