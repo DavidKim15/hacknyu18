@@ -101,7 +101,7 @@ public class SoundsActivity extends AppCompatActivity
         if (id == R.id.nav_graphics) {
             startActivity(new Intent(SoundsActivity.this,GraphicsActivity.class));
         } else if (id == R.id.nav_videos) {
-
+            startActivity(new Intent(SoundsActivity.this,VideosActivity.class));
         } else if (id == R.id.nav_sounds) {
             // do nothing
         }

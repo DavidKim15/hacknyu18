@@ -8,4 +8,5 @@
     <string name="title_activity_graphics2">Graphics2Activity</string>
     <string name="title_activity_graphics">GraphicsActivity</string>
     <string name="title_activity_sounds">SoundsActivity</string>
+    <string name="title_activity_videos">VideosActivity</string>
 </resources>
