@@ -30,9 +30,16 @@ public class SoundsActivity extends AppCompatActivity
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(SoundsActivity.this, R.raw.rain);
-                mp.start();
-                mp.setLooping(true);
+//                MediaPlayer mp = MediaPlayer.create(SoundsActivity.this, R.raw.rain);
+//                if(mp.isPlaying()) {
+//                    mp.stop();
+//                }
+//                mp.start();
+//                mp.setLooping(true);
+
+                MusicPlayer.setContext(SoundsActivity.this);
+                MusicPlayer.playMusic(R.raw.rain);
+
                 startActivity(new Intent(SoundsActivity.this,MainActivity.class));
             }
         });

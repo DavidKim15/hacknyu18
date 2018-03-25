@@ -24,6 +24,7 @@ public class GraphicsActivity extends AppCompatActivity
         setContentView(R.layout.activity_graphics);
         setTitle("Graphics");
 
+
         // to go to four seven eight
         ImageButton ib = (ImageButton) this.findViewById(R.id.button478);
         ib.setOnClickListener(new View.OnClickListener() {
