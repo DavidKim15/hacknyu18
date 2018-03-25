@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/countdown"
-            android:background="@android:color/white"
+            android:background="@color/background_material_dark"
             />
 
     </RelativeLayout>

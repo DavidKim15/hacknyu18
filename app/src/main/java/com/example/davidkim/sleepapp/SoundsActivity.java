@@ -40,10 +40,9 @@ public class SoundsActivity extends AppCompatActivity
                 MusicPlayer.setContext(SoundsActivity.this);
                 MusicPlayer.playMusic(R.raw.rain);
 
-                startActivity(new Intent(SoundsActivity.this,MainActivity.class));
+                finish();
             }
         });
-
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -97,8 +96,10 @@ public class SoundsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_graphics) {
+            super.onBackPressed();
             startActivity(new Intent(SoundsActivity.this,GraphicsActivity.class));
         } else if (id == R.id.nav_videos) {
+            super.onBackPressed();
             startActivity(new Intent(SoundsActivity.this,VideosActivity.class));
         } else if (id == R.id.nav_sounds) {
             // do nothing
